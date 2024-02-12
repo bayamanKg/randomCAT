@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="load">
+    Подождите примерно 2-3с
+  </div>
+
+  <div data-aos="fade-left" class="list">
+    <img src="./img/list.png" width="500px" alt="">
+  </div>
+  <div data-aos="fade-right" class="list2">
+    <img src="./img/list2.png" alt="">
+  </div>
+  <div class="container">
+    <h2 data-aos="zoom-in-up">Рандомная кошка</h2>
+    <div data-aos="zoom-in-down" class="card">
+      <img src="./img/cat-default.png" alt="Cat" class="img">
+    </div>
+    <div  data-aos="fade-up"
+    data-aos-duration="3000" class="btnn">
+      <button class="btn">Следующий</button>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
